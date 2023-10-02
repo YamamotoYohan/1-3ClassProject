@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-3 자리뽑기</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <h1>곡고 최강 1-3 자리뽑기</h1>
+<div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">@</span>
+    <div id = "result-text">
+    </div>
+    <input class="form-control" type ="password" id="password" placeholder="비밀번호를 입력하세요." onchange="valueCheck()">
+    <div id="classroom">
+        <!--- 자리배치를 할 공간 --->
+    </div>
+</div>
+
+
+    <table class="table table-dark table-hover" id="seat-table" border="2">
+        <tr>
+            <td></td><td></td><td>교</td><td>탁</td><td></td><td></td>
+        </tr>
+        <tr>
+            <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+        </tr>
+        <tr>
+            <td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td>
+        </tr>
+        <tr>
+            <td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td>
+        </tr>
+        <tr>
+            <td>  </td><td>  </td><td>19</td><td>20</td><td>  </td><td>  </td>
+        </tr>
+
+        
+    </table>
+
+
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+</html>
